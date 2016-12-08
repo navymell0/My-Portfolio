@@ -1,0 +1,117 @@
+/* Portfolio Website Stylesheet 
+   Melanie Kafka 11/29/2016 */
+
+/* outer shell for entire page, it's like a canvas */
+div.page {
+    border-radius:15px;
+    background-color:lightgray;
+    width:980;
+}
+
+/* contains name, title, and social media links */
+header {
+    border-radius:15px 15px 0px 0px;
+    background-color:darkgray;
+    padding-left:15px;
+    height:160px;
+}
+
+h1.siteheading {
+    color:white;
+    text-align:center;
+}
+
+h2.sitesubheading {
+    color:rebeccapurple;
+    text-align:left;
+    /* to fix:need to space out the text a little */
+}
+
+aside {
+    float:right;
+    padding:0px;
+/*    margin: 0px 10px 0px 0px;
+    width:200;*/
+}
+
+div.navigation {
+    background-color:dimgray;
+    height:55px;
+    width:100%;
+    bottom:0;
+    text-align:center;
+}
+
+div.navigation a {
+    color:white;
+}
+
+.portfoliobackground {
+    height:638px;
+    width:inherit;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image:url(../images/background.jpg);
+}
+
+div.portfolio {
+    background-color:lightgray;
+    position:absolute;
+}
+
+div.portfolio a {
+    color:dimgray;
+}
+
+ul.navigationlinks {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+li.navigationlinks {
+    float:left;
+}
+
+li.navigationlinks a {
+    display:block;
+    padding-top:22px;
+    padding-left:65px;
+    text-decoration:none;
+}
+
+/* pad for the link itself at left 70px and everything else is 0px
+   pad for the image left 5px 5px 0px 20px */
+
+a:link {
+    text-decoration:none;
+    color:white;
+}
+
+a:visited {
+    text-decoration:none;
+    color:purple;
+}
+
+a:hover {
+    text-decoration:underline;
+    color:lightgreen;
+}
+
+/*.portfolio {
+    padding:25px;
+    height:200px;
+    width:440px;
+    float:center;
+}*/
+
+footer {
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    color:white;
+    text-align:left;
+    background-color:dimgray;
+    border-radius:0px 0px 15px 15px;
+}
